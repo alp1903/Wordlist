@@ -34,11 +34,11 @@ time.sleep(0.7)
 print("[!] Bilgiler Sisteme Kaydediliyor")
 time.sleep(0.7)
 print("[!] İşlem Tamamlandı")
-time.sleep(0,3)
+time.sleep(0.3)
 #Alp
 liste = [ad, soyad, dtarih, adk, soyadk, tkm, pkod, hyvn, anahtar1, anahtar2, anahtar3, anahtarr1, anahtarr2, anahtarr3, th, teln]
 print("[!] Lütfen 3 Saniye Bekleyiniz")
-time.sleep(0,3)
+time.sleep(0.3)
 op = 1
 while op <= 1200:
 	print(random.choice(liste) + random.choice(liste))
